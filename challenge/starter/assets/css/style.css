@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    /* I removed the the dot, because I removed the div and the class="header" and replaced it with a header element */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    /* I removed the dot, because there is no more the class="header" */
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    /* I removed the dot, because there is no more the class="header" */
+    color: #d9dcd6;
+}
+
+header nav {
+    /* I removed the dot, because there is no more the class="header" and replaced the div with a nav */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    /* I removed the dot, because there is no more the class="header" */
+    list-style-type: none;
+}
+
+header nav ul li {
+    /* I removed the dot, because there is no more the class="header" */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+section {
+    /* I replaced the class="content" with section */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {
+    /* replaced the the class="benefits" with the aside */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    /* I joined the different classes, because they have the same properties. I got how to do that from 
+    stackoverflow */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}*/
+
+/*.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    /* I joined the different classes, because they have the same properties. I got how to do that from 
+    stackoverflow */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}*/
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    /* I joined the different classes, because they have the same properties. I got how to do that from 
+    stackoverflow */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}*/
+
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
+    /* I joined the different classes, because they have the same properties. I got how to do that from 
+    stackoverflow and used the hashtag instead of dots, because the dots are for classes and the hashtags for id*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}*/
+
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
+    /* I joined the different classes, because they have the same properties. I got how to do that from 
+    stackoverflow */
+    max-height: 200px;
+}
+
+/*.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}*/
+
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
+    /* I joined the different classes, because they have the same properties. I got how to do that from 
+    stackoverflow */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}*/
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* .footer h2 {
+    font-size: 20px;
+} */
